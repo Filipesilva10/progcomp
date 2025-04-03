@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header{
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    padding: 15px 0; /*espaçamento interno de 15 para esquerda e 0 para cima*/
+    font-size: 24px;
+    border: 1px solid black;
+    
+}
+
+nav{
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#links-menu{
+    display: flex;
+    gap: 20px;
+}
+/*configura o estilo da ancoras que estão dentro do nav*/
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    background: #005663;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background: #003d82;
+    
+}
+
+img{
+    width: 120px;
+    height: auto;
+    margin-right: 20px;/*espaçamento externo á direita de 20px*/
+    border-radius: 20px;
+    
+}
+
+.container{
+   width: 80%;
+   margin: 20px auto;  /*centralizar container */
+   background: 20px; /* cor de fundo */
+   padding: 20px; /*espaçamento interno*/
+   border-radius: 10px; /*borda com cantos arredondados */
+   text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
+
+table tr td{
+    padding: 20px;
+    
+}
+
+table {
+    margin: 0 auto; /*espaçamento externo de 0 acima e abaixo e automatico esq. e dir.*/
+
+}
+
+.laranja { 
+    background-color: orange;
+}
+
+.azul {
+    background-color: rgb(0, 0, 133);
+    color: white;
+}
+
+.preta {
+    background-color: black;
+    color: white;
+}
+
+.roxo {
+    background-color: purple;
+}
+
+.verde {
+    background-color: green;
+}
+
+.vermelha {
+    background-color: red;
+}
+
+
+th {
+    text-align: center;
+}
+
+.campos {
+    margin: 20px;
+    
+}
+ 
+.center{
+    text-align: justify;
+    justify-content: space-between;
+    background-color: #6badfa;
+    
+}
+
+.alinhamento{
+    text-align: left;
+    margin: 20 px;
+}
+
+.cinza{
+    background-color: #999999;
+}
+
+.centerazul{
+    text-align: left;
+    justify-content: space-between;
+    background-color: #6badfa;
+}
+
+.centercinza{
+    text-align: left;
+    justify-content: space-between;
+    background-color: #848484;
+}
