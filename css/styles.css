@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #003566;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ nav{
 
 #links-menu{
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 /*configura o estilo da ancoras que estão dentro do nav*/
 nav a{
@@ -53,10 +53,11 @@ img{
 .container{
    width: 80%;
    margin: 20px auto;  /*centralizar container */
-   background: 20px; /* cor de fundo */
+   background: white; /* cor de fundo */
    padding: 20px; /*espaçamento interno*/
    border-radius: 10px; /*borda com cantos arredondados */
    text-align: justify;
+  
 }
 
 h2{
@@ -134,5 +135,11 @@ th {
 .centercinza{
     text-align: left;
     justify-content: space-between;
-    background-color: #848484;
+    background-color: #b0b0b0;
+}
+
+.att{
+    background-color: #6badfa;
+    text-align: left;
+    justify-content: space-between;
 }
